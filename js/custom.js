@@ -7,20 +7,6 @@
         $(".navbar-collapse").collapse('hide');
     });
 
-    $(window).on('scroll', function() {     
-                                
-        /*----------------------------------------------------*/
-        /*  Navigtion Menu Scroll
-        /*----------------------------------------------------*/    
-        
-        var b = $(window).scrollTop();
-        
-        if( b > 72 ){       
-            $(".navbar").addClass("scroll");
-        } else {
-            $(".navbar").removeClass("scroll");
-        }               
-    });
 
     // TESTIMONIALS CAROUSEL
     $('#testimonials-carousel').owlCarousel({
@@ -50,6 +36,6 @@
         }, 1000);
         event.preventDefault();
       });
-    });   
-     
+    });
+
   });
